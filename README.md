@@ -40,9 +40,9 @@ git reset HEAD^ --hard             //reset to last commit but delete changes
 git log     //show log exit press 'q'
 git status  //show current status.
 git show    //show various types of objects
-git bisect  //Use binary search to find the commit that introduced a bug
-git diff    //Show changes between commits, commit and working tree, etc
-git grep    //Print lines matching a pattern
+git bisect  //use binary search to find the commit that introduced a bug
+git diff    //show changes between commits, commit and working tree, etc
+git grep    //print lines matching a pattern
 ```
 
 #### Branch
@@ -66,4 +66,12 @@ git stash apply //retrieve last stash
 git stash pop   //pop last stash and remove from stash
 git stach list  //show all stash list
 git stach clear //clear all stash
+```
+
+#### Merge
+```
+git merge <branch_name>             //merge branch into current branch
+git merge <branch_name> --no-commit //merge branch into current branch without commit
+git cherry-pick <SHA>               //merge specific commit into current branch
+git rebase                          //reapply commits on top of another base tip
 ```
