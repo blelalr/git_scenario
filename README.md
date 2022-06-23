@@ -1,7 +1,14 @@
 # git_scenario
 
-### Git Commands
+- [git-scenario](http://gogojimmy.net/2012/02/29/git-scenario/)
 
+- [source](https://sdwh.dev/posts/2020/05/Git-100/#%E6%83%85%E5%A2%83-%E6%AA%A2%E8%A6%96-Commit-%E7%B4%80%E9%8C%84-%E6%90%9C%E5%B0%8B%E9%97%9C%E9%8D%B5%E5%AD%97)
+
+- [rebase](https://ithelp.ithome.com.tw/articles/10277786)
+
+- [practice-git](https://github.com/grayghostvisuals/practice-git)
+
+### Git Commands
 #### Start a working area
 
 ```
