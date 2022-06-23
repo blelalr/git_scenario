@@ -32,6 +32,9 @@ git commit -am "commit msg"        //commit all changed file
 git commit --amend -m "commit msg" //fix last commit
 git reset HEAD^ --soft             //reset to last commit but remain changes
 git reset HEAD^ --hard             //reset to last commit but delete changes
+git tag "tag_name"                 //add tag to a commit
+git reflog                         //track git change log SHA
+git reset <SHA> --hard             //reset to that status
 ```
 
 #### Check history and state
