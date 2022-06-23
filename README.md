@@ -60,6 +60,7 @@ git checkout <branch_name>            //switch branch
 ```
 
 #### Stash
+
 ```
 git stash       //stash current change
 git stash apply //retrieve last stash
@@ -69,6 +70,7 @@ git stach clear //clear all stash
 ```
 
 #### Merge
+
 ```
 git merge <branch_name>             //merge branch into current branch
 git merge <branch_name> --no-commit //merge branch into current branch without commit
@@ -76,3 +78,10 @@ git cherry-pick <SHA>               //merge specific commit into current branch
 git rebase                          //reapply commits on top of another base tip
 ```
 
+#### Collaborate
+
+```
+git fetch       //download objects and refs from another repository
+git pull        //fetch from and integrate with another repository or a local branch
+git push        //update remote refs along with associated objects
+```
