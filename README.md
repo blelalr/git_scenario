@@ -75,3 +75,4 @@ git merge <branch_name> --no-commit //merge branch into current branch without c
 git cherry-pick <SHA>               //merge specific commit into current branch
 git rebase                          //reapply commits on top of another base tip
 ```
+
